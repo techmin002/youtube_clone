@@ -1,0 +1,25 @@
+.btnsearch{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: none;
+    width: 90px;
+    margin-left: -55px;
+    border: 0px;
+}
+
+#leftscrool{
+  overflow-y: scroll;
+  height: 630px;
+
+}
+#rightscrool {
+  overflow-y: scroll;
+  height: 630px;
+  overflow-y: 0px;
+}
+#rightscrool::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+.card{
+  border:5px;
+}
